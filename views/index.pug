@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+  article.portfolio-intro
+    h1 My Portfolio
+    p I have created these projects during my studies of front and back-end development and they incorporate all of the technologies I have learned.  They represent hundreds of hours filled with frustration and elation, but most importantly pure enjoyment.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href=`project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+            h5= project.project_name
+

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
+
+  img.errorPic(src='/static/images/404-error-ui-pngrepo-com.png', height= '100px', width='150px')  
+  .errorPage    
+      h1= `${error.status}`
+        h2= `${error.message}`
+        pre #{error.stack}
+  
+  nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

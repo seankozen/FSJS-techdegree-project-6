@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
+
+  .errorPage
+      h1= `${err.status}`
+        h2= `${err.message}`
+        pre #{err.stack}
+  
+  nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

@@ -1,0 +1,86 @@
+{
+    "projects": [
+
+        {
+            "id": 1,
+            "project_name": "Interactive Photo Gallery",
+            "description": "A thumbnal photo gallery with search functionality and incorporates Ligthbox to view a larger version of each photo.",
+            "technologies": ["HTML", "CSS", "Sass", "JavaScript"],
+            "live_link": "https://seankozen.github.io/interactive-photo-gallery/",
+            "github_link": "https://github.com/seankozen/interactive-photo-gallery",
+            "image_urls": ["/static/images/interactiveGallery_L.png", "/static/images/interactiveGallery1.png", "/static/images/interactiveGallery2.png", "/static/images/interactiveGallery3.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Wheel of Success",
+            "description": "A guess-the-phrase game that plays like the TV game show, Wheel of Fortune.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://seankozen.github.io/guess-the-phrase-app/",
+            "github_link": "https://github.com/seankozen/guess-the-phrase-app",
+            "image_urls": ["/static/images/wheelOfSuccess_L.png", "/static/images/wheelOfSuccess1.png", "/static/images/wheelOfSuccess2.png", "/static/images/wheelOfSuccess3.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Web App Dashboard",
+            "description": "An interactive app dashboard using SVG graphics, tables, and charts created with chart.js",
+            "technologies": ["HTML", "CSS", "Sass", "JavaScript", "chart.js"],
+            "live_link": "https://seankozen.github.io/app-dashboard/",
+            "github_link": "https://github.com/seankozen/app-dashboard",
+            "image_urls": ["/static/images/dashboard_L.png", "/static/images/dashboard1.png", "/static/images/dashboard2.png", "/static/images/dashboard3.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "API Employee Directory",
+            "description": "Employee directory that utilizes an API to pull personnel information and displays it.  It uses a modal to display detailed information and has search functionality.",
+            "technologies": ["HTML", "CSS", "Sass", "JavaScript"],
+            "live-link": "https://seankozen.github.io/API-employee-directory/",
+            "github-link": "https://github.com/seankozen/API-employee-directory",
+            "image_urls": ["/static/images/apiDirectory_L.png", "/static/images/apiDirectory1.png", "/static/images/apiDirectory2.png", "/static/images/apiDirectory3.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "Math for Kids",
+            "description": "An app for kids to practice their addition, subtraction, multiplication, and division in sets of 10 problems. Limits to the number values can be chosen.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://seankozen.github.io/math-for-kids/",
+            "github_link": "https://github.com/seankozen/math-for-kids",
+            "image_urls": ["/static/images/mathForKids_L.png", "/static/images/mathForKids1.png", "/static/images/mathForKids2.png", "/static/images/mathForKids3.png"]
+        },
+        {
+            "id": 6,
+            "project_name": "Random Quote Generator",
+            "description": "A random quote generator that can automatically generate a quote every 10 seconds or from the click of a button. Background color also changes automatically.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://seankozen.github.io/fsjs-techdegree-project-1/",
+            "github_link": "https://github.com/seankozen/fsjs-techdegree-project-1",
+            "image_urls": ["/static/images/randomQuotes_L.png", "/static/images/randomQuotes1.png", "/static/images/randomQuotes2.png", "/static/images/randomQuotes3.png"]
+        },
+        {
+            "id": 7,
+            "project_name": "Paginated Student List with Searchability",
+            "description": "A student list that incorporates pagination to enhance usability. It creates pagination buttons dynamically and the list is searchable.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://seankozen.github.io/FSJS-techdegree-project-2/",
+            "github_link": "https://github.com/seankozen/FSJS-techdegree-project-2",
+            "image_urls": ["/static/images/studentListPagination_L.png", "/static/images/studentListPagination1.png", "/static/images/studentListPagination2.png", "/static/images/studentListPagination3.png"]
+        },
+        {
+            "id": 8,
+            "project_name": "Phrase Hunter",
+            "description": "A guess-the-phrase game utilizing Object Oriented Programming, Similar to the TV game show Wheel of Fortune.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://seankozen.github.io/FSJS-techdegree-project-4/",
+            "github_link": "https://github.com/seankozen/FSJS-techdegree-project-4",
+            "image_urls": ["/static/images/phraseHunter_L.png", "/static/images/phraseHunter1.png", "/static/images/phraseHunter2.png", "/static/images/phraseHunter3.png"]
+        },
+        {
+            "id": 9,
+            "project_name": "Interactive Form",
+            "description": "An interactive sign-up form with field validation for name, email, activity, and payment fields.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://seankozen.github.io/FSJS-techdegree-project-3/",
+            "github_link": "https://github.com/seankozen/FSJS-techdegree-project-3",
+            "image_urls": ["/static/images/interactiveForm_L.png", "/static/images/interactiveForm1.png", "/static/images/interactiveForm2.png", "/static/images/interactiveForm3.png"]
+        }
+    ]
+}
