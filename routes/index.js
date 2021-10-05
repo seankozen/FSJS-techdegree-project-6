@@ -20,10 +20,10 @@ router.get('/project/:id', (req, res, next) => {
     if(project) {
         res.render('project', {project});
     } else {
-        const error = new Error();
-        error.message = 'Uh-oh.  Looks like something is wrong with the server.';
-        error.status = 500;
-        next(error);
+        const err = new Error();
+        err.message = 'Uh-oh.  Looks like something is wrong with the server.';
+        err.status = 500;
+        next(err);
     }
 });
  

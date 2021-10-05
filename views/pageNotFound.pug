@@ -8,9 +8,9 @@ block content
 
   img.errorPic(src='/static/images/404-error-ui-pngrepo-com.png', height= '100px', width='150px')  
   .errorPage    
-      h1= `${error.status}`
-        h2= `${error.message}`
-        pre #{error.stack}
+      h1= `${err.status}`
+        h2= `${err.message}`
+        pre #{err.stack}
   
   nav.nav
       a(href='/')

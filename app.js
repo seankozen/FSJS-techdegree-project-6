@@ -21,10 +21,11 @@ app.use(mainRoute);
 
 // 404 Error handler for dead or broken links
 app.use((req, res, next) =>{
-    const error = new Error();
-    error.message = 'Sorry, the page you are looking for does not exist or the link is broken.';
-    error.status = 404;
-    res.render('pageNotFound', {error});
+    const err = new Error();
+    err.message = 'Sorry, the page you are looking for does not exist or the link is broken.';
+    err.status = 404;
+    res.status(404).render('pageNotFound', {err});
+    console.log(err);
 });
 
 // Handle Global Errors
@@ -35,7 +36,7 @@ app.use((err, req, res, next) => {
 
     // 404 Error
     if (err.status === 404) {
-        res.status(404).render('pageNotFound', {err});
+        res.status(404).render('pageNotFound', {err}); 
     } 
     // 500 Error 
     else { 
