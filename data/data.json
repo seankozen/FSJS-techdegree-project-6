@@ -33,8 +33,8 @@
             "project_name": "API Employee Directory",
             "description": "Employee directory that utilizes an API to pull personnel information and displays it.  It uses a modal to display detailed information and has search functionality.",
             "technologies": ["HTML", "CSS", "Sass", "JavaScript"],
-            "live-link": "https://seankozen.github.io/API-employee-directory/",
-            "github-link": "https://github.com/seankozen/API-employee-directory",
+            "live_link": "https://seankozen.github.io/API-employee-directory/",
+            "github_link": "https://github.com/seankozen/API-employee-directory",
             "image_urls": ["/static/images/apiDirectory_L.png", "/static/images/apiDirectory1.png", "/static/images/apiDirectory2.png", "/static/images/apiDirectory3.png"]
         },
         {
