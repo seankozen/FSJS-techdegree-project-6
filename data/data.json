@@ -81,6 +81,15 @@
             "live_link": "https://seankozen.github.io/FSJS-techdegree-project-3/",
             "github_link": "https://github.com/seankozen/FSJS-techdegree-project-3",
             "image_urls": ["/static/images/interactiveForm_L.png", "/static/images/interactiveForm1.png", "/static/images/interactiveForm2.png", "/static/images/interactiveForm3.png"]
+        },
+        {
+            "id": 10,
+            "project_name": "Gallery App",
+            "description": "An app built with React that pulls photos from the Flckr API and displays them.  User can search for photos",
+            "technologies": ["HTML", "CSS", "JavaScript, React.js, Axios"],
+            "live_link": "https://sean-gallery-app.herokuapp.com/",
+            "github_link": "https://github.com/seankozen/react-gallery-app",
+            "image_urls": ["/static/images/react-gallery-app_L.png", "/static/images/react-gallery-app1.png", "/static/images/react-gallery-app2.png", "/static/images/react-gallery-app3.png"]
         }
     ]
 }
