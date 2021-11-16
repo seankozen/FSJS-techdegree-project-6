@@ -85,7 +85,7 @@
         {
             "id": 10,
             "project_name": "Gallery App",
-            "description": "An app built with React that pulls photos from the Flckr API and displays them.  User can search for photos",
+            "description": "An app built with React that pulls photos from the Flckr API and displays them.  App has a search function.",
             "technologies": ["HTML", "CSS", "JavaScript, React.js, Axios"],
             "live_link": "https://sean-gallery-app.herokuapp.com/",
             "github_link": "https://github.com/seankozen/react-gallery-app",
