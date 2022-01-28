@@ -90,6 +90,16 @@
             "live_link": "https://sean-gallery-app.herokuapp.com/",
             "github_link": "https://github.com/seankozen/react-gallery-app",
             "image_urls": ["/static/images/react-gallery-app_L.png", "/static/images/react-gallery-app1.png", "/static/images/react-gallery-app2.png", "/static/images/react-gallery-app3.png"]
+        },
+        {
+            "id": 11,
+            "project_name": "Library Catalog App",
+            "description": "An application that allows the user to keep track of books in a library using a database.  Books can be added, edited, deleted, and searched.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Pug", "Sequelize", "SQLite"],
+            "live_link": "https://sgkozen-library-database.herokuapp.com/books?page=1",
+            "github_link": "https://github.com/seankozen/FSJS-techdegree-project-8",
+            "image_urls": ["/static/images/libraryDatabase-L.png", "/static/images/libraryDatabase1.png", "/static/images/libraryDatabase2.png", "/static/images/libraryDatabase3.png"]
         }
+
     ]
 }
