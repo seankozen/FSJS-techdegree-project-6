@@ -99,6 +99,16 @@
             "live_link": "https://sgkozen-library-database.herokuapp.com/books?page=1",
             "github_link": "https://github.com/seankozen/FSJS-techdegree-project-8",
             "image_urls": ["/static/images/libraryDatabase-L.png", "/static/images/libraryDatabase1.png", "/static/images/libraryDatabase2.png", "/static/images/libraryDatabase3.png"]
+        },
+        {
+            "id": 12,
+            "project_name": "Full Stack Course Catalog App",
+            "description": "A full stack JavaScript application utilizing React. Allows the user to create, update, delete, and view courses. Users must sign up and are only authorized to delete or update their own courses.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React", "Sequelize", "PostgreSQL"],
+            "live_link": "https://full-stack-school-course-app.herokuapp.com/",
+            "github_link": "https://github.com/seankozen/course-catalog-app-deploy",
+            "image_urls": ["/static/images/schoolCourseApp_L.png", "/static/images/schoolCourseApp1.png", "/static/images/schoolCourseApp2.png", "/static/images/schoolCourseApp3.png"]
+            
         }
 
     ]
