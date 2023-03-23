@@ -4,7 +4,7 @@
         {
             "id": 1,
             "project_name": "Interactive Photo Gallery",
-            "description": "A thumbnal photo gallery with search functionality and incorporates Ligthbox to view a larger version of each photo.",
+            "description": "A thumbnal photo gallery with search functionality and incorporates Lightbox to view a larger version of each photo.",
             "technologies": ["HTML", "CSS", "Sass", "JavaScript"],
             "live_link": "https://seankozen.github.io/interactive-photo-gallery/",
             "github_link": "https://github.com/seankozen/interactive-photo-gallery",
