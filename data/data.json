@@ -94,7 +94,7 @@
         {
             "id": 11,
             "project_name": "Full Stack Course Catalog App",
-            "description": "A full stack JavaScript application utilizing React. Allows the user to create, update, delete, and view courses. Users must sign up and are only authorized to delete or update their own courses.",
+            "description": "A full stack JavaScript application utilizing React. Allows the user to create, update, delete, and view courses. Users must sign up and are only authorized to delete or update their own courses.  Signup form includes validation for all fields.",
             "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React", "Sequelize", "PostgreSQL"],
             "live_link": "https://full-stack-school-course-app.herokuapp.com/",
             "github_link": "https://github.com/seankozen/course-catalog-app-deploy",
